@@ -19,7 +19,7 @@ public class Respuesta extends AppCompatActivity {
         Bundle b = this.getIntent().getExtras();
         respuesta.setText(b.getString("respuesta"));
 
-        final Button atras = (Button) findViewById(R.id.atras);
+       final Button atras = (Button) findViewById(R.id.atras);
         atras.setOnClickListener(
                 new View.OnClickListener() {
                     @Override

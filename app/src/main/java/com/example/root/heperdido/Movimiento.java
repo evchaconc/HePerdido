@@ -23,12 +23,12 @@ public class Movimiento extends AppCompatActivity {
                         Intent intent = new Intent(Movimiento.this, Respuesta.class);
                         //Crear información a pasar
                         Bundle b = new Bundle();
-                        if (nombre.toString().equals("El futuro está en tus manos") ||
-                                nombre.toString().equals("el futuro está en tus manos") ||
-                                nombre.toString().equals("El futuro esta en tus manos") ||
-                                nombre.toString().equals("el futuro esta en tus manos") ||
-                                nombre.toString().equals("EL FUTURO ESTÁ EN TUS MANOS") ||
-                                nombre.toString().equals("EL FUTURO ESTA EN TUS MANOS")) {
+                        if (nombre.getText().toString().equals("El futuro está en tus manos") ||
+                                nombre.getText().toString().equals("el futuro está en tus manos") ||
+                                nombre.getText().toString().equals("El futuro esta en tus manos") ||
+                                nombre.getText().toString().equals("el futuro esta en tus manos") ||
+                                nombre.getText().toString().equals("EL FUTURO ESTÁ EN TUS MANOS") ||
+                                nombre.getText().toString().equals("EL FUTURO ESTA EN TUS MANOS")) {
                             b.putString("respuesta", "MOVIMIENTO NARANJA, MOVIMIENTO CIUDADANO ");
                         }
                         else b.putString("respuesta", "Eso no es...");

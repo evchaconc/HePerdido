@@ -7,7 +7,7 @@
     tools:context=".Respuesta">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/respuesta"
         android:layout_width="276dp"
         android:layout_height="154dp"
         android:layout_marginBottom="8dp"
@@ -31,7 +31,7 @@
         android:layout_marginEnd="212dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Atrás"
+        android:text="Inicio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.75"
